@@ -20,6 +20,8 @@ export default {
 <style lang="scss">
 $ctaColor : #F9A826;
 #newsletter{
+    position: relative;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -28,10 +28,13 @@ $ctaColor : #F9A826;
 $darkBGColor : #121212;
 #hero{
   position: relative;
-  min-height: 100vh;
+  min-height: 110vh;
   color : black;
   padding-top: 10px;
   padding-bottom: 10px;
+  @media screen and (min-width: 640px){
+    height: 100vh;
+  }
   h1{
     padding: 0 10px;
     font-weight: 700;
@@ -106,12 +109,16 @@ $darkBGColor : #121212;
     }
   }
   img{
+    z-index: 9;
     position: absolute;
     margin: auto;
-    width: 300px;
+    width: 240px;
     bottom: 0;
     right: 0;
     left: 0;
+    @media screen and (min-width: 640px){
+      width: 300px;
+    }
   }
 }
 .darktheme{
