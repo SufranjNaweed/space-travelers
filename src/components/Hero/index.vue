@@ -28,7 +28,7 @@ $ctaColor : #F9A826;
 $darkBGColor : #121212;
 #hero{
   position: relative;
-  min-height: 110vh;
+  min-height: 100vh;
   color : black;
   padding-top: 10px;
   padding-bottom: 10px;
