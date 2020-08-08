@@ -1,5 +1,7 @@
 # space-travelers
 
+![alt text](https://github.com/SufranjNaweed/space-travelers/blob/master/src/assets/images/screen-startup.png "Logo Title Text 1")
+
 ## Project setup
 ```
 npm install
