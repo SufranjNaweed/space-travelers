@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <h1>Test</h1>
+    <Hero />
   </div>
 </template>
 
 <script>
+import Hero from './components/Hero'
 export default {
   name: 'App',
-  components: {}
+  components: { Hero }
 }
 </script>
 
 <style lang="scss">
+*{
+  box-sizing: border-box;
+}
 #app {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
